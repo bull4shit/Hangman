@@ -1,0 +1,22 @@
+.custom-dialog {
+    -fx-background-color: #2C3E50;
+}
+
+.custom-dialog > *.button-bar > *.container {
+    -fx-background-color: #2C3E50;
+}
+
+.custom-dialog > *.label.content {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.custom-dialog:header *.header-panel {
+    -fx-background-color: #2C3E50;
+}
+
+.custom-dialog:header *.header-panel *.label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
